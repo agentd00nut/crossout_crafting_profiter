@@ -1,6 +1,12 @@
 # crossout_crafting_profiter
-Always know what item to craft to make the most profit
+Always know what item to craft to make the most profit.
+Make custom lists of items to track profits for.
 
+![Example Run Of Program](/imgs/Capture.PNG?raw=true "Example Run")
+
+
+Note: Profit values already account for 10% fee from the market!
+Note: Technically if you are renting the workbench for only 5 items at a time you'll want to make sure you are making atleast 5$ of profit on each item you sell... we recommend renting more than 5 at a time.
 
 # How to use
 
