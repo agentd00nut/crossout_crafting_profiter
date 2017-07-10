@@ -20,7 +20,9 @@ Only positive profit is output.
 # What do all these numbers mean?
 
 Cost: This is the cost if you were to buy all the materials required to make this item by right clicking on the required materials and "buying now".
+
 Profit: If you subtract the cost from the current "Sell now" right click option for the crafted item you'd get this number.  The 10% market tax is included so don't take another 10% off of this!
+
 Cost Profit Ratio:  Simply the cost divided by the profit.  Incase you want to "Most effeciently" spend your money.
 
 Realize that the profit reported is WORST CASE scenario.  If you take the time to place the highest buy order and sell your item for the lowest sell order instead of using the right click quick menu you will make anywhere from 10-20% MORE on the item.
