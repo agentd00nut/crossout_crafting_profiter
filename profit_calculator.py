@@ -20,7 +20,7 @@ engineer_legendary={
     "Scorpion ": 49
 }
 
-lunatic_rares={
+lunatic_rare={
     "at wasp": 44,
     "growl":60,
     "sledgehammer":2,
@@ -142,11 +142,14 @@ def find_profits( item_list, list_name ):
         price = fetch_price( id )
         if( price['profit'] > 0 ):
             #print( "    '", item, "'        cost:",price['cost'],"  profit:",price['profit'] );
-            print("    %22s    cost:%4.2f  profit:%4.2f" % (item, price['cost'], price['profit'] ))
+            print("    %22s    cost:%4.2f  profit:%4.2f profit_cost_ratio:%4.2f" % (item, price['cost'], price['profit'],  (price['profit']/price['cost']) ) )
             
 
-#find_profits(engineer_rare, "Engineer Rares");
-#find_profits(engineer_legendary, "Engineer Legendary");
+find_profits(engineer_rare, "Engineer Rares");
 find_profits(nomad_rare, "nomad Rares");
-#find_profits(lunatic_rares, "Lunatic Rares")
-#find_profits(scavenger_legendary, "Scavengers rare");
+find_profits(lunatic_rares, "Lunatic Rares")
+find_profits(scavenger_legendary, "Scavengers rare");
+
+find_profits(nomad_epic, "nomad_epic")
+find_profits(lunatic_epic, "lunatic_epic")
+find_profits(scavenger_epic, "scavenger_epic")
