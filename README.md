@@ -6,6 +6,7 @@ Make custom lists of items to track profits for.
 
 
 Note: Profit values already account for 10% fee from the market!
+
 Note: Technically if you are renting the workbench for only 5 items at a time you'll want to make sure you are making atleast 5$ of profit on each item you sell... we recommend renting more than 5 at a time.
 
 # How to use
