@@ -122,9 +122,9 @@ def fetch_price( item ):
     
     j = r.json() 
 
-    sell_price = float( j['Item']['FormatSellPrice'] )
+    sell_price = float( j['item']['formatSellPrice'] )
     sell_price_adjusted = sell_price - (sell_price * .1)
-    cost = float( j['Recipe']['Recipe']['SumSellFormat'] )
+    cost = float( j['recipe']['recipe']['sumSellFormat'] )
     profit = round(  sell_price_adjusted - cost, 2)
     instant_profit=profit-5
 
@@ -145,9 +145,13 @@ def find_profits( item_list, list_name ):
             print("    %22s    cost:%4.2f  profit:%4.2f profit_cost_ratio:%4.2f" % (item, price['cost'], price['profit'],  (price['profit']/price['cost']) ) )
             
 
+
+
+# Edit these following lines to control what is output
+
 find_profits(engineer_rare, "Engineer Rares");
 find_profits(nomad_rare, "nomad Rares");
-find_profits(lunatic_rares, "Lunatic Rares")
+find_profits(lunatic_rare, "Lunatic Rares")
 find_profits(scavenger_legendary, "Scavengers rare");
 
 find_profits(nomad_epic, "nomad_epic")
