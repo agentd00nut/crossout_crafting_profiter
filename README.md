@@ -17,14 +17,23 @@ The first argument is a list of items you want to find profits for, the second a
 
 Only positive profit is output.
 
+# Step By Step How 2.
+
+``` 
+git clone https://github.com/agentd00nut/crossout_crafting_profiter.git
+cd crossout_crafting_profiter
+python profit_calculator.py
+```
+
 # What do all these numbers mean?
 
-Cost: This is the cost if you were to buy all the materials required to make this item by right clicking on the required materials and "buying now".
+**Cost**: This is the cost if you were to buy all the materials required to make this item by right clicking on the required materials and "buying now".
 
-Profit: If you subtract the cost from the current "Sell now" right click option for the crafted item you'd get this number.  The 10% market tax is included so don't take another 10% off of this!
+**Profit**: If you subtract the cost from the current "Sell now" right click option for the crafted item you'd get this number.  The 10% market tax is included so don't take another 10% off of this!
 
-Cost Profit Ratio:  Simply the cost divided by the profit.  Incase you want to "Most effeciently" spend your money.
+**Cost Profit Ratio**:  Simply the cost divided by the profit.  Incase you want to "Most effeciently" spend your money.
 
+# Ramblings and Tips
 Realize that the profit reported is WORST CASE scenario.  If you take the time to place the highest buy order and sell your item for the lowest sell order instead of using the right click quick menu you will make anywhere from 10-20% MORE on the item.
 
 Buying from the right click menu means filling the current lowest sell order.  Instead you can use the trade menu to overcut the highest buy order.  Usually the difference between the lowest sell order and highest buy order is >10% since people are trying to buy and sell the items on margin and there is a default 10% tax to sell things on the market.  Thus by trading on the highest buy order you instantly save 10%.
